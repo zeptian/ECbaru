@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Electrical Learning</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<div class="container">
+<div id="header" class="row">
+	<div class="col-md-2">
+		<img src="img/logounnes.png" width="100px"></img>
+	</div>
+	<div class="col-md-8">
+		<h1 class="text-center text-warning">Universitas Negeri Semarang<br/>Fakultas Teknik<br/>Jurusan Teknik Elektro</h1>
+	</div>
+	<div class="col-md-2">
+		<img src="img/logo elektro.gif" width="100px"></img>
+	</div>
+</div>
+<marquee><h4>Dedi Nurdiansyah - Pendidikan Teknik Elektro - 5301410072</h4></marquee>
+<div class="row">
+	<div class="col-md-3">
+	<ul class="nav nav-pills nav-stacked">
+		<li><a href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+		<li><a href="profil.html"><span class="glyphicon glyphicon-user"></span> Profil</a></li>
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<li class="active panel-title">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-book"></span> Materi</a></li>
+			</div>
+			<div id="collapseOne" class="panel-collapse collapse">
+				<div class="panel-body">
+					<ul>
+						<li><a href="bagtv.html">Bagian-bagian Blok TV</a></li>
+						<li><a href="alat.html">Alat Reparasi</a></li>
+						<li><a href="reparasi.html">Reparasi TV</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</div>
+		<li><a href="evaluasi.html"><span class="glyphicon glyphicon-pencil"></span> Evaluasi</a></li>
+		<li><a href="ucapan.html"><span class="glyphicon glyphicon-thumbs-up"></span> Ucapan Terima Kasih</a></li>
+	</ul>
+	</div>
+	<div id="home" class="col-md-9">
+		<div class="row">
+		<img src="img/logounnes.png" class="background"></img>
+			<h2>Reparasi TV</h2>
+			<p>Memperbaiki TV hendaklah dilakukan dengan hati-hati dan teliti karena dapat berakibat fatal. Televisi adalah pesawat elektronik yang memilki tegangan listrik tinggi. Disamping itu, dari semua kerusakan belum tentu disebabkan oleh komponen yang rusak. Adakalanya rusak karena solderan timah yang kurang baik sehingga kaki-kaki komponen tidak tersambung sempurna ke PCB. Gejala dan penyebab kerusakan TV bermacam-macam. Gejala yang timbul dapat berupa mati total, tidak ada suara atau gambar yang dihasilkan jelek. Sementara itu, kerusakan TV dapat pula disebabkan oleh komponen yang sudah dimakan usia  atau hubungan antar komponen yang kurang sempurna
+			</p>
+			<div class="panel-group" id="accordion2">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<h4 class="panel-title">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse1">
+					Tidak Ada Gambar dan Suara
+					</a>
+					</h4>
+					</div>
+					<div id="collapse1" class="panel-collapse collapse">
+						<div class="panel-body">
+						<img src="img/tv1.png"></img><br/>
+						Ada beberapa kerusakan yang bisa mengakibatkan TV tidak dapat bekerja sama sekali. Pada umumnya kerusakan semacam ini terjadi pada bagian catu daya (Power Supply) atau rangkaian defleksi horizontal
+						<ol>
+						<li><strong>TV Mati Total dan Lampu Indikator Padam</strong></li>
+							<ul>
+							<li>Penyebab : Kerusakan pada rangkaian catu daya </li>
+							<li>Solusi : Memeriksa jala-jala listrik dan rangkaian regulator input sampai output</li>
+							</ul>
+							<p>Pada umumnya catu daya TV mempunyai output tegangan sebesar 115 V, 24 V dan 5 V, tergantung merek TV- nya. Ganti komponen yang rusak dan perbaiki jalur rangkaian yang kurang sempurna</p>
+						<li><strong>Terdengar Suara Derit Getaran Trafo Switching</strong></li>
+							<ul>
+							<li>Penyebab : Tegangan output terhambat karena ada   komponen yang rusak</li>
+							<li>Solusi : Lepas Dioda Output B+, periksa diode, apabila diode baik berarti kerusakan pada bagian horizontal (Transistor Horizontal Out dan FBT)</li>
+							</ul>
+						<li><strong>Lampu Indikator Menyala Tetapi Gambar dan Suara Tidak Muncul</strong></li>
+							<ul>
+							<img src="img/tv2.png"></img>
+							<li>Penyebab : kerusakan pada bagian Supply IC MCU atau  IC MCU itu sendiri yang rusak</li>
+							<li>Solusi : Lepas Pin Output transistor regulator 5v, periksa Tegangan apabila tidak ada kerusakan terjadi pada diode supply dan transistor regulasi, apabila ada tegangan, beraerti kerusakan pada IC MCU</li>
+							</ul>
+						</ol>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<h4 class="panel-title">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+					Tidak Ada Raster Tetapi Suara Baik
+					</a>
+					</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+						<div class="panel-body">
+							<img src="img/tv2a.png"></img>
+							<ul>
+							<li>Penyebab : Rangkaian penguat video dan pembatas tegangan tinggi atau CRT rusak</li>
+							<li>Solusi :
+								<ol>
+								<li>Periksa tegangan video 180v</li>
+								<li>Jika diukur tidak ada tegangan, periksa diode video out dan R fusebile</li>
+								<li>jika saat mengukur tegangan normal semua, kerusakan yang sering terjadi adalah filament putus sehingga CRT tidak memancarkan cahaya</li>
+								<img src="img/tv3.png"></img>
+								</ol>
+							</li>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<h4 class="panel-title">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse3">
+					Gambar Gelap
+					</a>
+					</h4>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">	
+						<p>Raster tidak menyala terang meskipun posisi screen flyback pada maksimum</p>
+						<img src="img/tv4.png"></img>
+						<ul>
+							<li>Penyebab : Tegangan anoda CRT terlalu rendah akibat adanya kerusakan pada rangkaian tegangan tinggi, rangkaian defleksi horizontal atau rangkaian catu daya. Tegangan semua katoda CRT menjadi besar karena gangguan pada penguat video sehingga terjadi proteksi otomatis picture mute</li>
+							<li>Solusi :
+								<ol>
+								<li>Periksa tegangan video output 180v</li>
+								<li>Jika normal, periksa tegangan input penguat video</li>
+								<li>Jika normal, periksa rangkaian tegangan tinggi. Biasanya resistor mengalami kerusakan</li>
+								<li>transistor picture mute rusak</li>
+								</ol>
+							</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<h4 class="panel-title">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse4">
+					Raster Satu Garis Horizontal 
+					</a>
+					</h4>
+					</div>
+					<div id="collapse4" class="panel-collapse collapse">
+						<div class="panel-body">
+						<img src="img/tv5.png"></img>
+						<ul>
+							<li>Penyebab : rangkaian vertical tidak bekerja</li>
+							<li>Solusi : Periksa rangkaian defleksi vertikal dan Periksa seluruh elektroda IC dan diode osilasi vertikal</li>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<h4 class="panel-title">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse5">
+					Cacat (distorsi) Pola Raster
+					</a>
+					</h4>
+					</div>
+					<div id="collapse5" class="panel-collapse collapse">
+						<div class="panel-body">	
+						<ul>
+							<li>Gambar Sempit </li>
+								<ul>
+								<img src="img/tv6.png"></img>
+									<li>Penyebab : Kerusakan seperti ini jarang sekali terjadi pada TV keluaran baru. Tegangan output horizontal lebih rendah sehingga rangkaian arus gigi gergaji pada kumparan defleksi horizontal (yoke) bertambah lemah</li>
+									<li> Solusi :</li>
+										<ol>
+											<li>Periksa tegangan output catu daya B+ ( elco sering rusak )</li>
+											<li>Jika tegangan outputnya lebih rendah, Periksa komponen-komponennya</li>
+										</ol>
+								</ul>
+							<li>Pelebaran Horizontal</li>
+								<ul>
+								<img src="img/tv7.png"></img>
+									<li>Penyebab : V amp tidak kerja</li>
+									<li> Solusi :</li>
+										<ol>
+											<li>Periksa resistor vertical in</li>
+											<li>Periksa elco filter supply vertical</li>
+										</ol>
+								</ul>
+						</ul>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<h4 class="panel-title">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse6">
+					Gambar Jelek
+					</a>
+					</h4>
+					</div>
+					<div id="collapse6" class="panel-collapse collapse">
+						<div class="panel-body">	
+						<ul>
+							<li>Noise Salju Pada Gambar</li>
+								<ul>
+								<img src="img/tv8.png"></img>
+									<li>Penyebab : Intensitas medan pada tempat  penerimaan sinyal frekuensi rendah. Sistem antena TV rusak. Rangkaian penguat frekuensi tinggi rusak</li>
+									<li> Solusi :</li>
+										<ol>
+											<li>Putar arah antenna sampai didapatkan gambar bagus</li>
+											<li>Perbaiki jalur antena kabel</li>
+											<li>Periksa solderan pada blok tuner dan AGC.</li>
+										</ol>
+								</ul>
+							<li>Muncul Garis Miring</li>
+								<ul>
+								<img src="img/tv9.png"></img>
+									<li>Penyebab : Biasanya gangguan dari pemancar radio</li>
+									<li> Solusi : Jauhkan antena dan TV dari sumber frekuensi gangguan</li>
+								</ul>
+						</ul>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<h4 class="panel-title">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse7">
+					Noise Bintik Putih
+					</a>
+					</h4>
+					</div>
+					<div id="collapse7" class="panel-collapse collapse">
+						<div class="panel-body">	
+						<img src="img/tv10.png"></img>
+						<ul>
+							<li>Penyebab : Gangguan dari busi motor, mobil atau kawat distribusi listrik tegangan tinggi</li>
+							<li>Solusi : Jauhkan antena dan TV dari kabel listrik tegangan tinggi. Gunakan kabel koaksial untuk antena TV</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<footer class="footer bs-footer" role="contentinfo">
+	<div class="container">
+        <p>Media pembelajaran ini di buat oleh<a href="#"> Dedi Nurdiansyah</a></p>
+        <ul class="footer-links">
+			<li><a href="http://ft.unnes.ac.id">Fakultas Teknik</a></li>
+			<li class="muted">-</li>
+			<li><a href="http://unnes.ac.id">Universitas Negeri Semarang</a></li>
+		</ul>
+    </div>
+</footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
